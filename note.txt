@@ -1,2 +1,22 @@
 1, cd client
 npx create-react-app .
+
+2, https://tailwindcss.com/docs/installation
+
+npm install -D tailwindcss
+
+npx tailwindcss init
+
+Trong file tailwind.config:
+
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{html,js}",
+  './public/index.html' // Them
+],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
