@@ -20,3 +20,6 @@ module.exports = {
   },
   plugins: [],
 }
+
+3, Cài redux
+npm i redux react-redux redux-persist
