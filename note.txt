@@ -1,0 +1,2 @@
+1, cd client
+npx create-react-app .
